@@ -8,7 +8,7 @@
 ## 📁 Step 1: Start with the Portfolio Template
 
 1. Download the MkDocs AI portfolio template folder:
-   - [Download Template ZIP](../ai_portfolio_mkdocs.zip)
+   - [Download Template ZIP](./ai_portfolio_mkdocs.zip)
 
 2. Extract and open the folder:
    ```
@@ -45,15 +45,18 @@ http://127.0.0.1:8501
 ## 📤 Step 4: Push Your Code to GitHub
 
 1. Create a new repo on GitHub (e.g., `ai-portfolio`)
+   - Go to https://github.com/new
+   - Name it something like: ai-portfolio
+   - Keep it public and without README (you can add later)
 2. Run these commands in your terminal:
 
-```
-git init
-git remote add origin https://github.com/your-username/ai-portfolio.git
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git push -u origin main
+```bash
+git init # Initialize a new Git repository
+git remote add origin https://github.com/your-username/ai-portfolio.git # Replace with your repo URL
+git add . # Add all files to the staging area
+git commit -m "Initial commit" # Commit the changes
+git branch -M main # Rename the default branch to main 
+git push -u origin main # Push the changes to the remote repository
 ```
 
 ---
@@ -62,8 +65,8 @@ git push -u origin main
 
 Run this command:
 
-```
-mkdocs gh-deploy
+```bash
+mkdocs gh-deploy # "Deploying to GitHub Pages"
 ```
 
 - It builds your site
@@ -76,8 +79,8 @@ mkdocs gh-deploy
 
 Visit:
 
-```
-https://your-username.github.io/ai-portfolio/
+```bash
+https://your-username.github.io/ai-portfolio/ # Replace with your GitHub username
 ```
 
 ✅ Your portfolio is now live!
@@ -89,6 +92,9 @@ https://your-username.github.io/ai-portfolio/
 - Update `mkdocs.yml` to change site name or colors
 - Add resume in `/docs/` and link it in `resume.md`
 - Share your link on LinkedIn and GitHub
+- Complete MKDocs documentation for more customization:
+  - [MkDocs Documentation](https://www.mkdocs.org/user-guide/writing-your-docs/)
+  - [Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/getting-started/)
 
 ---
 

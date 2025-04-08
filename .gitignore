@@ -1,0 +1,5 @@
+# add all dir and sub dir of .DS_Store
+*.DS_Store
+*/*.DS_Store
+
+.DS_Store
