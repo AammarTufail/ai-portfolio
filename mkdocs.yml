@@ -1,0 +1,13 @@
+site_name: My AI Portfolio
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+nav:
+  - Home: index.md
+  - Projects:
+      - Data Science: projects/data_science.md
+      - AI & ML: projects/ai_ml.md
+  - Resume: resume.md
+  - Contact: contact.md
