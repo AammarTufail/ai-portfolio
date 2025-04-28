@@ -1,6 +1,6 @@
 site_name: Aammar Tufail Portfolio
 site_description: Aammar Tufail's portfolio showcasing projects in Data Science, AI, and Machine Learning.
-site_author: Aammar Tufail
+site_author: Muhammad Aammar Tufail
 theme:
   name: material
   palette:
@@ -13,4 +13,4 @@ nav:
       - AI & ML: projects/ai_ml.md
   - Resume: resume.md
   - Contact: contact.md
-theme: readthedocs
+# theme: readthedocs
