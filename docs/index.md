@@ -1,4 +1,4 @@
-# 👋 Welcome to My AI Portfolio
+# 👋 Muhammad Aammar Tufail
 
 I’m an AI and Data Science student passionate about building intelligent systems and solving real-world problems using data.
 
