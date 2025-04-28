@@ -3,3 +3,10 @@
 */*.DS_Store
 
 .DS_Store
+
+# ignore deploy.sh file from same directory
+./deploy.sh
+# ignore all .env files
+*.env
+# ignore all .env files in any directory
+**/*.env
