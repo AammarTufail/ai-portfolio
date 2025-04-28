@@ -14,5 +14,8 @@ git commit -m "Update site content"
 # Pull latest changes from main
 git pull origin main
 
+# push changes to the main branch
+git push origin main
+
 # Deploy to GitHub Pages
 mkdocs gh-deploy
